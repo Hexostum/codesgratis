@@ -7,11 +7,11 @@ function menu()
 	$texte = array();
 	
 	$texte[] = '<ul>';
-	$texte[] = '<h2><a href="http://www.exostum.net/">Réseau Exostum</a></h2>';
+	$texte[] = '<h2><a href="http://www.hexostum.net/">Réseau Exostum</a></h2>';
 	$texte[] = '<li>Codesgratis</li>';
-	//$texte[] = '<li><a href="http://dimensionrpg.exostum.net/"</a>dimensionrpg</a></li>';
-	$texte[] = '<li><a href="http://blog.exostum.net/">Blog du webmasteur</a></li>';
-	$texte[] = '<li><a href="http://forum.exostum.net/">Forum du webmasteur</a></li>';
+	$texte[] = '<li><a href="http://dimensionrpg.exostum.net/"</a>dimensionrpg</a></li>';
+	$texte[] = '<li><a href="http://blog.hexostum.net/">Blog du webmasteur</a></li>';
+	$texte[] = '<li><a href="http://forum.hexostum.net/">Forum du webmasteur</a></li>';
 	$texte[] = '</ul>';
 	
 	$texte[] = '<ul>';
@@ -21,7 +21,7 @@ function menu()
 	$texte[] = FP_TAB . '<li><a href="classement.php" title="Découvrez le classement de nos joueurs inscrits !">Le classement</a></li>';
 	$texte[] = FP_TAB . '<li><a href="gagnants.php" title="Qui a gagné quoi ?">Les gagnants</a></li>';
 	$texte[] = FP_TAB . '<li><a href="enligne.php" title="Qui a gagné quoi ?">Les membres en ligne.</a></li>';
-	$texte[] = FP_TAB . '<li><a href="http://forum.exostum.net/" title="">Le forum</a></li>';
+	$texte[] = FP_TAB . '<li><a href="http://forum.hexostum.net/" title="">Le forum</a></li>';
 	$texte[] = FP_TAB . '<li><a href="livreor.php" title="CodesGratis vous plait ? N\'hésitez pas à le dire !">Le livre d\'or</a></li>';
 	$texte[] = FP_TAB . '<li><a href="support.php" title="Support et contact">Support et contact.</a></li>';
 	$texte[] = FP_TAB . '<li><a href="reglement.php" title="Avant de jouer, prenez bien en compte le réglement !">Le réglement</a></li>';
