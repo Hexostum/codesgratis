@@ -1,0 +1,294 @@
+*
+{
+	margin:0; 
+	padding:0; 
+	border:0;
+}
+a
+{
+	text-decoration:none; 
+	color: #404040; 
+	/**
+	color:#89B3CC; 
+	font-size:8pt
+	/**/
+}
+
+a:hover
+{
+	text-decoration:underline; 
+	/**
+	color:#A2DCDE;
+	/**/
+}
+
+body 
+{
+	width:900px;
+	padding:0;
+	margin:0 auto;
+	font: normal 10pt "Trebuchet MS", Tahoma, Verdana, sans-serif, Arial;
+	color: #000000;
+	background-color: #d9e3eb;
+	background: #d9e3eb url(../images/style/body_codesgratis.png) repeat-y left top; 
+}
+
+#global 
+{
+	margin:0 auto;
+	float:left;
+	width:900px;
+	background:#d9e3eb url(../images/style/fondcontenu_codesgratis.png) repeat-y left top;
+}
+
+#header 
+{
+	width:900px;
+	height:301px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:#ededed url(../images/style/header_codesgratis.png) no-repeat left top;
+}
+
+#menu 
+{
+	float:left;
+	display:inline;
+	width:177px;
+	text-align:left;
+	margin:0 0 0 50px;
+}
+#menu h2 
+{
+	width:177px;
+	height:30px;
+	line-height:30px;
+	font-size:10pt;
+	margin:0;
+	padding:0 0 0 10px;
+	/*color:#8d8d8d;*/
+	color: #000000;
+	background: url(../images/style/rubrique_codesgratis.png) no-repeat left top;
+}
+
+#menu ul 
+{
+	margin:0 0 15px 0;
+	width:162px;
+	font-size:10pt;
+	list-style:none;
+}
+
+#menu ul li 
+{
+	display:block;
+	margin:0px;
+	padding:0 0 0 20px;
+	width:177px;
+	height:29px;
+	line-height:29px;
+	text-decoration:none;
+	background: url(../images/style/lien_codesgratis.png) no-repeat left top;
+}
+
+#menu ul li a:hover 
+{
+	text-decoration:underline;
+}
+
+#corps 
+{
+	margin:0 40px 0 225px;
+	padding:10px;
+}
+
+.floatl 
+{
+	float:left;
+	padding-right:1em;
+	margin:0;
+}
+
+#corps h1 
+{
+	/*color:#89B3CC;*/
+	color: #000000;
+	margin:0 10px 10px;
+	padding:0 5px;
+	font: bold 15pt Tahoma,Verdana,sans-serif, Arial;
+	text-align: center;
+}
+#corps p 
+{
+	/*color:#8d8d8d;*/
+	color: #000000;
+	text-indent:15px;
+	margin:5px 5px 5px 0;
+}
+
+#corps p.right 
+{
+	margin-right:15px;
+	text-align:right;
+	font-weight:bold;
+	font-size:9px;
+	letter-spacing:1px;
+	/*color:#8d8d8d;*/
+	color: #000000;
+}
+
+#footer 
+{
+	clear:both;
+	width:900px;
+	font-size:9px;
+	text-align:center;
+}
+#footer_b
+{
+	background:#d9e3eb url(../images/style/pied.png) no-repeat left top;
+	height:14px;
+}
+
+div.pub
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 728px;
+	height: 90px;
+	padding-top:10px;
+}
+
+table
+{
+	width: 95%;
+	margin: 1%;
+	border-collapse:collapse;
+}
+
+th
+{
+	border: ridge 2px #EBF4FB;
+	background-color: #c6dcea;
+}
+
+td
+{
+	border: ridge 2px #EBF4FB;
+	background-color: #c6dcea;
+	text-align:center;
+}
+
+input, select, textarea
+{
+	border: ridge 2px #EBF4FB;
+	background-color: #EBF4FB;
+	font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif, Arial;
+}
+
+.lien_numero_pages
+{
+	text-align: center;
+}
+
+#corps h2, #corps h3, #corps h4, #corps h5
+{
+	text-align: center;
+}
+
+.maj
+{
+	border:ridge 2px #EBF4FB;
+	background-color:#c6dcea;
+}
+
+.com
+{
+	border-top:ridge 2px #EBF4FB;
+	text-align:center;
+}
+
+.com_affichage
+{
+	border-bottom:ridge 2px #EBF4FB;
+}
+
+.historique
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.compteur
+{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h1.petit_titre_h
+{
+	display:inline;
+	font-size:9px;
+}
+ul.menu_h
+{
+	display:inline;
+}
+ul.menu_h li
+{
+	display:inline;
+	padding-left:5px;
+}
+#site_informations
+{
+	font-size:larger;
+	font-weight:bolder;
+	margin:10px;
+}
+div.message_informations
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid blue;
+	background-image:url(../images/icones/informations.ico);
+	background-repeat:no-repeat;
+	padding-left:32px;
+	min-height:32px;
+	background-position:left;
+}
+div.message_erreur
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid red;
+	background-image:url(../images/icones/erreur.ico);
+	background-repeat:no-repeat;
+	padding-left:32px;
+	background-position:left;
+	min-height:32px;
+}
+div.message_question
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid blue;
+	background-image:url(../images/icones/question.ico);
+	background-repeat:no-repeat;
+	padding-left:32px;
+	background-position:left;
+	min-height:32px;
+}
+div.message_reponse
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px solid yellow;
+	background-image:url(../images/icones/exclamation.ico);
+	background-repeat:no-repeat;
+	padding-left:32px;
+	background-position:left;
+	min-height:32px;
+}
+ul
+{
+	list-style-position:inside;
+}

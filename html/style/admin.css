@@ -1,0 +1,255 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-size:medium;
+}
+h1,h2,h3,h4,h5,h6
+{
+	margin:0px;
+	padding:0px;
+	font-size:medium;
+}
+.quick
+{
+	display:none;
+	visibility:hidden;
+}
+/** -- TITRE -- **/
+#section_titre
+{
+	height:100px;
+	background-image:url(design/images/exostum/titre.png);
+	border:5px solid black;
+	margin:5px;
+}
+#section_titre .section_contenu
+{
+	visibility:hidden;
+}
+/** -- TITRE -- **/
+
+/** -- CONTENU -- **/
+#section_contenu
+{
+	margin-top:40px;
+	margin-left:5px;
+	margin-right:5px;
+	border:5px solid black;
+	overflow:auto;
+	/*min-width:300px;*/
+}
+/** -- CONTENU -- **/
+
+#section_menu
+{
+	position:absolute;
+	left:5px;
+	right:5px;
+	height:20px;
+	top:120px;
+	padding:0px;
+	margin:0px;
+}
+/** -- CONTENU -- **/
+
+.section_menu
+{
+	margin:0px;
+	padding:0px;
+	border:1px solid black;
+}
+
+.section_menu ul
+{
+	 margin:0px;
+	 padding:0px;
+	 list-style-position:inside;
+	 list-style-type:none;
+}
+.section_menu ul li
+{
+	background-color:gray;
+	color:white;
+	margin-left:5px;
+	display:inline;
+}
+.section_menu ul li a
+{
+	background-color:gray;
+	color:white;
+}
+.section_menu ul li a:hover
+{
+	background-color:white;
+	color:gray;
+}
+.item
+{
+	margin:11px;
+	border:1px solid black;
+	clear:both;
+}
+.item_titre , .item_titre2
+{
+	text-decoration:underline;
+	padding:5px;
+	border:5px solid blue;
+	text-align:center;
+	clear:both;
+}
+.item_titre h1:first-letter , .menu_titre h1:first-letter , .menu_titre_ici h1:first-letter
+{
+	text-transform:uppercase;
+	color:white;
+	background-color:black;
+	padding:5px;
+}
+.item_contenu , .item_contenu_c , .item_contenu2
+{
+	border:3px solid black;
+	padding:5px;
+	clear:both;
+}
+.item_contenu_c
+{
+	text-align:center;
+}
+.item_centre
+{
+	margin:5px;
+	padding:1px;
+	border:1px solid green;
+	text-align:center;
+}
+.menu
+{
+	border:5px solid black;
+	margin:11px;
+}
+.menu ul, ul.menu2, ul.menu_ligne
+{
+	margin:0px;
+	padding:0px;
+	list-style-position:outside;
+	list-style-type:none;
+}
+.menu ol
+{
+	margin:0px;
+	padding:0px;
+	list-style-position:inside;
+}
+.menu li, ul.menu2 li
+{
+	margin:5px;
+	padding:1px;
+	border:1px solid green;
+}
+li.menu_ici
+{
+	margin:5px;
+	border:1px solid green;
+	border-left:5px solid black;
+	border-right:5px solid black;
+	padding:5px;
+}
+ul.menu_ligne li
+{
+	display:inline;
+	margin:5px;
+}
+ol.menu2
+{
+	margin:0px;
+	padding:0px;
+	list-style-position:inside;
+}
+ol.menu2 li
+{
+	margin:5px;
+	padding:1px;
+	border:1px solid green;
+}
+.menu_titre
+{
+	text-decoration:underline;
+	padding:5px;
+	border:5px solid blue;
+	text-align:center;
+}
+.menu_titre_ici
+{
+	text-decoration:underline;
+	padding:0px;
+	border:5px solid blue;
+	text-align:center;
+}
+.menu_titre_ici h1
+{
+	border-left:5px solid black;
+	border-right:5px solid black;
+}
+table
+{
+	border:1px solid blue;
+	margin:10px;
+}
+th
+{
+	border:1px solid blue;
+	font-weight:bolder;
+}
+.question
+{
+	border:1px solid blue;
+	font-weight:bold;
+	text-align:center;
+}
+.reponse
+{
+	border:1px solid blue;
+}
+
+.maj
+{
+	border: ridge 2px #EBF4FB;
+	background-color: #c6dcea;
+}
+
+.com
+{
+	border-top: ridge 2px #EBF4FB;
+	text-align: center;
+}
+
+.com_affichage
+{
+	border-bottom: ridge 2px #EBF4FB;
+}
+
+.historique
+{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.compteur
+{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h1.petit_titre_h
+{
+	display:inline;
+	font-size:9px;
+}
+ul.menu_h
+{
+	display:inline;
+}
+ul.menu_h li
+{
+	display:inline;
+	padding-left:5px;
+}

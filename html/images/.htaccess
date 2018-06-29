@@ -1,0 +1,4 @@
+# order allow,deny
+# deny from 92.80.153.198
+
+Redirect temp /.* http://www.codesgratis.fr/maintenance.htm
