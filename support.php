@@ -8,17 +8,17 @@ include_once(FP_CHEMIN_FONCTIONS . 'messagerie' . '.php');
 
 $contenu_texte[] = '<h1>Support de codesgratis</h1>';
 $contenu_texte[] = '<table>';
-$contenu_texte[] = '<tr><td>MSN</td><td>finalserafin@gmail.com</td></tr>';
-$contenu_texte[] = '<tr><td>courriel</td><td>support@codesgratis.fr</td></tr>';
-$contenu_texte[] = '<tr><td>ICQ</td><td>611208409</td></tr>';
+$contenu_texte[] = '<tr><td>MSN</td><td>***@***</td></tr>';
+$contenu_texte[] = '<tr><td>courriel</td><td>support@****</td></tr>';
+$contenu_texte[] = '<tr><td>ICQ</td><td>*******</td></tr>';
 $contenu_texte[] = '<tr><td>IRC</td><td>irc.epiknet.org #codesgratis</td></tr>';
-$contenu_texte[] = '<tr><td>AIM</td><td>finalserafin</td></tr>';
-$contenu_texte[] = '<tr><td>yahoo</td><td>finalserafin</td></tr>';
+$contenu_texte[] = '<tr><td>AIM</td><td>******</td></tr>';
+$contenu_texte[] = '<tr><td>yahoo</td><td>******</td></tr>';
 $contenu_texte[] =  '</table>';
 
 form_support($contenu_texte);
 
-$contenu_texte [] = '<iframe src="http://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=finalserafin%40gmail.com&amp;color=%232952A3&amp;ctz=Europe%2FParis" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>';
+$contenu_texte [] = '<iframe src="http://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=****&amp;color=%232952A3&amp;ctz=Europe%2FParis" style=" border-width:0 " width="600" height="600" frameborder="0" scrolling="no"></iframe>';
 /**
 $mode = $_GET['mode'];
 
